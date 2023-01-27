@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #c1c1c1;
+}
+* {
+    box-sizing: border-box;
+}
+
+#cv-wrapper {
+    display: flex;
+}
+
+#cv-container {
+    margin-left: max(175px, 15%);
+
+    display: flex;
+    flex-direction: column;
+}
+#side-bar {
+    height: 100vh;
+    width: max(175px, 15%);
+    padding: 2%;
+    background-color: #5a5a5a;
+    color: #fff;
+    position: fixed;
+
+}
+
+#who-am-i {
+    display: flex;
+    background-color: #252525;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+
+#who-am-i div {
+    flex-basis: 75%;
+    margin-left: 5%;
+    background-color: #5a5a5a;
+}
+
+#coord-intro{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.coord-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.coord-items .coordopic {
+    font-size: 2em;
+}
+#formations {
+    background-color: grey;
+}
+
+.formation-cdui-before {
+    display: flex;
+}
+
+.cdui-formation {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     padding: 3%;
+     background-color: rgb(255, 145, 145);   
+}
+
+.formations-before {
+    padding: 3%;
+    background-color: peru;
+}
+
+#pro-experiences {
+    padding: 3%;
+    background-color: palegreen;
+}
+
+.pro-exp-detail{
+        display: flex;
+        background-color: yellow;
+}
+
+
+
+
+
+#tools-skills {
+    padding: 3%;
+    background-color: peru;
+}
+
+.ts-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+.ts {
+    color: #964caf;
+    font-weight: 700;
+}
+
+.lr {
+    font-size: 80px;
+}
+.ps {
+    font-size: 80px;
+}
+.ai {
+    font-size: 60px;
+}
+.pr {
+    font-size: 60px;
+}
+.ae {
+    font-size: 60px;
+}
+.xd {
+    font-size: 50px;
+}
+.language {
+    font-size: 40px;
+}
+.wp {
+    font-size: 30px;
+}
+.office {
+    font-size: 80px;
+}
+.anglais {
+    font-size: 50px;
+}
+.allemand {
+    font-size: 50px;
+}
+
+.ts {
+    font-size: 16px;
+}
+
+#portfolio {
+    background-color: palevioletred;
+}
+
+#portfolio .button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#portfolio .button:hover {
+    background-color: white;
+    border: solid black;
+    color: black;
+}
+
+#hobbies .bobby {
+    font-size: 2em;
+}
+
+#contact-me{
+    background-color: tomato;    
+}
+
+
+h3 {
+    color: red;
+    text-align: center;
+}
+
+h4 {
+    color: blue;
+}
+
+.date {
+    color: green;
+}
