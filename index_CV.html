@@ -41,12 +41,31 @@
             </ul>
         </nav>
 <!------------------------------------ Side bar mobile------------------------------------------------------------->
-        <div id="cv-container">
-
+        <section class="top-nav">
+            <div>
+                <img src="/assets/img/Phenix.png" alt="phenix bleu" width="50px">
+            </div>
+            <input id="menu-toggle" type="checkbox" />
+            <label class='menu-button-container' for="menu-toggle">
+            <div class='menu-button'></div>
+        </label>
+            <ul class="menu">
+                <li><a href="#sect-who-am-i">Qui suis-je&nbsp;?</a></li>
+                <li><a href="#formations">Formations</a></li>
+                <li><a href="#tools-skills">Outils et compétences</a></li>
+                <li><a href="#pro-experiences">Expériences professionnelles</a></li>
+                <li><a href="#bobbies">Loisirs</a></li>
+                <li><a href="#potofolo">Portfolio</a></li>
+                <li><a href="#contact-me">Me contacter</a></li>
+            </ul>
+        </section>
 
 <!------------------------------------ Qui suis-je ------------------------------------------------------------->
+        <div id="cv-container">
             <section id="sect-who-am-i" class="fade-in-image">
                 <div id="who-am-i">
+                    <img src="/assets/img/Phenix.png" class="pic-computer" alt="phenix bleu" width="20%">
+                    <img src="/assets/img/mon_logo_fd_trans.png" class="pic-mobile" alt="Mon logo MTS" width="100%">
                     <div>
                         <h3><i class="fa-solid fa-user"></i> Qui suis-je&nbsp;?</h3>
                         <p>
@@ -62,10 +81,9 @@
                             dans le cadre de cette formation.
                         </p>
                     </div>
-                    <img src="/assets/img/Phenix.png" alt="phenix bleu" width="20%">
                 </div>
                 <div id="coord-intro">
-                    <div class="coord-items">
+                    <div class="coord-items mob-adresse">
                         <i class="coordopic fa-solid fa-house"></i>
                         <p>207 rue Léon Dupontreué</p>
                         <p>80080 Amiens</p>
@@ -75,10 +93,11 @@
                         <a href="mailto:maxime.trouvillers@gmail.com">maxime.trouvillers@gmail.com</a>
                     </div>
                     <div class="coord-items"><i class="coordopic fa-solid fa-phone"></i>
-                        <p>06 42 83 15 56</p>
+                        <p><a href="tel:+33642831556" class="clictel">06 42 83 15 56</a></p>
+                    
                     </div>
                     <div class="coord-items">
-                        <i class="coordopic fa-solid fa-globe"></i>
+                        <a href="https://themax.mystrikingly.com/" target="_blank" rel="noopener noreferrer"><i class="coordopic fa-solid fa-globe"></i></a>
                         <a href="https://themax.mystrikingly.com/" target="_blank" rel="noopener noreferrer">Accès direct au Portfolio</a>
                     </div>
                 </div>
@@ -356,7 +375,6 @@
     <script>
         AOS.init({
             easing: 'ease-in-sine',
-            offset:200,
         });
       </script>
 
