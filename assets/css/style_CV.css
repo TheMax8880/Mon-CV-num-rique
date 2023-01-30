@@ -98,7 +98,7 @@ body {
 }
 
 
-  .animated {
+.animated {
     animation-duration: 1s;
     animation-fill-mode: both;
     -webkit-animation-duration: 1s;
@@ -495,6 +495,11 @@ html {font-size: 80%;}
 
 .date {
     margin-right: 1rem;
+}
+
+
+#hobbies-portfolio {
+    display: block;
 }
 
 
