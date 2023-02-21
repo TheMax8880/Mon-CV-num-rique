@@ -14,6 +14,10 @@ body {
     color: #ddd;
 }
 
+#myCanvasContainer {
+    color: #FFF;
+}
+
 .pic-mobile {display: none;}
 
 .clictel {
@@ -401,7 +405,7 @@ h3 {
     color: #00ace9;
     text-align: center;
     margin: 1rem;
-    margin-bottom: 1rem;
+    margin-top: 5rem;
     font-size: 2.5rem;
     font-weight: 700;
 }
@@ -500,6 +504,11 @@ html {font-size: 80%;}
 
 #hobbies-portfolio {
     display: block;
+}
+
+#tools-skills {
+    padding: 2%;
+    text-align: center;
 }
 
 
